@@ -6,6 +6,6 @@ jobs:
     Task-3:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout
+            - uses: actions/checkout@v4
             - run: echo ${BRANCH_NAME}
             - run: du -skh --exclude=".git"
